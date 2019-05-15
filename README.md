@@ -24,3 +24,9 @@ npm run build
         itemsModules: '该文件是对items文件内部的引用，用于安装组件',
     }
 }
+
+# 发布组件到npm
+1、如果使用了淘宝镜像源 npm config set registry https://registry.npmjs.org/
+2、npm adduser
+3、npm publish
+4、发布成功后修改为淘宝镜像源 npm config set registry https://registry.npm.taobao.org
