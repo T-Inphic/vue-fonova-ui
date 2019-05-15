@@ -34,7 +34,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 // module.exports.default = module.exports;
 
 export default{
-  version: '0.0.1',
+  version: '1.0.1',
   install,
   Input,
   ...Object.values(example)
