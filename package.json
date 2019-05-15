@@ -1,11 +1,11 @@
 {
-  "name": "fs-ui",
+  "name": "vue-fs-ui",
   "description": "a fs frame for ui",
   "version": "1.0.1",
-  "author": "tinphic <tinphic@163.com>",
+  "author": "tinphic",
   "license": "MIT",
   "private": false,
-  "main": "lib/fs-vue-ui.min.js",
+  "main": "lib/vue-fs-ui.min.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
