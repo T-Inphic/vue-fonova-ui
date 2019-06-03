@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": false,
   "main": "lib/vue-fs-ui.min.js",
-  "repository": { 
+  "repository": {
     "type": "git",
     "url": "https://github.com/T-Inphic/vue-fs-ui.git"
   },
@@ -15,7 +15,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "element-ui": "^2.8.2",
+    "mint-ui": "^2.2.13",
     "vue": "^2.5.11"
   },
   "browserslist": [
@@ -33,6 +33,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
+    "echarts": "^4.2.1",
     "file-loader": "^1.1.4",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
