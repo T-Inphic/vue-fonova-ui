@@ -1,14 +1,14 @@
 {
   "name": "vue-fonova-ui",
-  "description": "a fs frame for ui",
-  "version": "1.0.3",
+  "description": "a fonova frame for ui",
+  "version": "1.0.4",
   "author": "tinphic",
   "license": "MIT",
   "private": false,
   "main": "lib/vue-fonova-ui.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/T-Inphic/vue-fs-ui.git"
+    "url": "https://github.com/T-Inphic/vue-fonova-ui.git"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",

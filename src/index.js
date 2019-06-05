@@ -33,14 +33,14 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 // module.exports = {
-//   version: '1.0.3',
+//   version: '1.0.4',
 //   install,
 // };
 
 // module.exports.default = module.exports;
 
 export default{
-  version: '1.0.3',
+  version: '1.0.4',
   install,
   FsButton,
   ...Object.values(cockpit)
