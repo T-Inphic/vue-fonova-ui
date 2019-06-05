@@ -1,11 +1,11 @@
 {
-  "name": "vue-fs-ui",
+  "name": "vue-fonova-ui",
   "description": "a fs frame for ui",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "tinphic",
   "license": "MIT",
   "private": false,
-  "main": "lib/vue-fs-ui.min.js",
+  "main": "lib/vue-fonova-ui.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/T-Inphic/vue-fs-ui.git"

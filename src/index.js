@@ -1,23 +1,21 @@
 import Vue from 'vue'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import './style/var.scss'
+import './style/1px.scss'
 
 Vue.use(MintUI)
 
 //单个组件
-import FsInput from '../packages/input/index.js';
-import FsTable from '../packages/table/index.js';
 import FsButton from '../packages/button/index.js';
 
 //模块级组件（每个项目可能都不一样）
-import example from './itemsModules/example';
+import cockpit from './itemsModules/cockpit';
 
 
 const components = [
-  FsInput,
-  FsTable,
   FsButton,
-  ...Object.values(example)
+  ...Object.values(cockpit)
 ];
 
 
@@ -35,18 +33,15 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 // module.exports = {
-//   version: '0.0.1',
+//   version: '1.0.3',
 //   install,
-//   FsInput,
 // };
 
 // module.exports.default = module.exports;
 
 export default{
-  version: '0.0.1',
+  version: '1.0.3',
   install,
-  FsInput,
-  FsTable,
   FsButton,
-  ...Object.values(example)
+  ...Object.values(cockpit)
 }

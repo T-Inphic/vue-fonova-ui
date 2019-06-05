@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    <fs-input></fs-input>
-    <fs-button
-    :list="btnList"
-    />
+    <ckt-button :list="btnList" @change="change"></ckt-button>
+    <ckt-button @click="change">测试按钮</ckt-button>
+    <ckt-pannel
+      main-title="测试主标题"
+      sub-title="测试副标题"
+      rType="select"
+      ></ckt-pannel>
   </div>
 </template>
 
@@ -13,6 +16,11 @@ export default {
   data () {
     return {
       btnList: ['按钮1','按钮2','按钮3']
+    }
+  },
+  methods:{
+    change(d){
+      console.log(d)
     }
   }
 }
