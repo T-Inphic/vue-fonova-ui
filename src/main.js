@@ -1,11 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import FsVueUI from'./index'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+import VueFonovaUI from'./index'
 
-Vue.use(ElementUI)
-Vue.use(FsVueUI)
+
+Vue.use(VueFonovaUI)
 
 new Vue({
   el: '#app',
