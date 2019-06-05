@@ -1,6 +1,6 @@
-# fs-ui
+# fonova-ui
 
-> a fs frame for ui
+> a fonova frame for ui
 
 ## Build Setup
 
@@ -33,5 +33,5 @@ npm run build
 5、npm publish  
 6、发布成功后修改为淘宝镜像源 npm config set registry https://registry.npm.taobao.org  
 
-#UI框架说明
+# UI框架说明  
 1、UI框架基于375设计稿 && fontSize="100px"  
